@@ -50,11 +50,16 @@ body {
     justify-content: center;
     padding: 0% 15%;
   }
+
+  .mail {
+    text-decoration: underline;
+  }
   
-  p {
+  p, ul {
     font-family: "Playwrite DE Grund";
     text-align: center;
     padding: 0% 2%;
+    list-style-position: inside;
   }
   
   .cards {
@@ -84,7 +89,9 @@ body {
 
   button {
     background-color: lightblue;
-  }
+    justify-content: center;
+    display: flex;
+}
   
   .link {
     font-weight: bold;
